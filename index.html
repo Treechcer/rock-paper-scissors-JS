@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sheet.css"> 
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1> Score: <span id="PS"> 0 </span> / <span id="AIS"> 0 </span> </h1>
+        </div>
+        <div class="AI">
+            <h1> Last game: </h1>
+        </div>
+        <div>
+            <p id="playedGame"> no game played </p>
+        </div>
+        <div class="AI">
+            <h3> AI </h3>
+        </div>
+        <div>
+            <p> AI chose: <span id="AIchose"> n </span> </p>
+        </div>
+        <div class="Player">
+            <h3> player </h3>
+        </div>
+        <div>
+            <p id="Playerchose">Player chose: <span> n </span></p>
+        </div>
+        
+        <div>
+            <button onclick="mainGame('scissors')"> ✂️ </button>
+            <button onclick="mainGame('rock')"> 🪨 </button>
+            <button onclick="mainGame('paper')"> 📄 </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
